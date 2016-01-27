@@ -17,7 +17,11 @@ GLApplication::GLApplication() {
   _angle=0.0;
 
  // _projection de classe Matrix4 (déclaré dans GLApplication.h)
-  _projection.setOrtho(-20,20,-20,20,5,100); // cf calcul de la matrice dans le cours
+ _projection.setOrtho(-20,20,-20,20,5,100);
+ // _projection.setOrtho(-18,22,-10,30,5,100);
+ //_projection.setOrtho(-5,2,-10,10,5,100);
+  //_projection.setOrtho(-20,20,-20,20,5,1e8);
+  // cf calcul de la matrice dans le cours
 
 
 
